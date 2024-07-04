@@ -305,7 +305,8 @@ ul {
     }
     
     /* concept */
-    .concept {
+    .concept-img img,
+    box1 {
         flex-direction: column;
     }
 
