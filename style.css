@@ -304,9 +304,20 @@ ul {
 
     .concept-img image {
         width: 100%;
+        flex-direction: column;
     }
 
     .box1 {
         width: 100%;
     }
+
+    /* MENU */
+    .box2 {
+        width: 400px;
+        height: 650px;
+    }
+
+    /* stylist */
+    
+    
 }
