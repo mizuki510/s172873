@@ -296,6 +296,11 @@ ul {
         align-items: center;
         text-align: center;
     }
+
+    #home {
+    background-image: url(https://github.com/mizuki510/s172873/blob/main/header-bg.png?raw=true);
+    background-size: 100% auto;
+    }
     
     /* concept */
     .concept {
