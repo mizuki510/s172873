@@ -62,6 +62,7 @@ header {
     font-size: 1.7rem;
     margin: 3px 20 42px;
 }
+
 /* 見出し */
 .page-title {
     font-size: 5rem;
@@ -71,7 +72,7 @@ header {
 }
 #home {
     background-image: url(https://github.com/mizuki510/s172873/blob/main/header-bg.png?raw=true);
-    background-size: cover;
+    background-size: 100%;
     min-height: 100vh;
 }
 #home .page-title {
@@ -293,6 +294,7 @@ ul {
     .page-header {
         flex-direction: column;
         align-items: center;
+        text-align: center;
     }
     
     /* concept */
