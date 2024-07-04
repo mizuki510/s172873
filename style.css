@@ -312,7 +312,7 @@ ul {
 
     .concept-img image {
         width: 100%;
-        flex-direction: column;
+        display: flex;
     }
 
     .box1 {
@@ -321,11 +321,30 @@ ul {
 
     /* MENU */
     .box2 {
-        width: 400px;
-        height: 650px;
+        width: 340px;
+        height: 900px;
+    }
+
+    .menu dl {
+        display: flex;
+        justify-content: space-between;
     }
 
     /* stylist */
+    .stylist-img {
+        display: flex;
+    }
+
+    .grid {
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .grid item {
+        height: auto;
+    }
+
+    /* comments */
     
     
 }
